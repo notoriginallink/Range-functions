@@ -1,0 +1,1 @@
+add_library(xrange xrange.h xrange.cpp)

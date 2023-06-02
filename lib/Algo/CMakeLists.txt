@@ -1,0 +1,5 @@
+add_library(Algo Algo.h)
+add_subdirectory(AlgorithmSTL)
+add_subdirectory(XRange)
+add_subdirectory(zip)
+target_link_libraries(Algo PRIVATE AlgoSTL xrange zip)
